@@ -1,0 +1,175 @@
+{
+  "Foods": {
+    "100": {
+      "description": "Freshly baked buns, American cheese, two beef patties, fleshly sliced or grilled onions, lettuce, spread, and tomatoes.",
+      "image": "doubleDouble",
+      "ingredients": [
+        "salt",
+        "patty",
+        "onion",
+        "tomato",
+        "pepper",
+        "mayo",
+        "cheese",
+        "ketchup"
+      ],
+      "name": "Double Double",
+      "price": 3.95
+    },
+    "101": {
+      "description": "Chocolate, strawberry or vanilla made with real ice cream.",
+      "image": "inNOutChocolateShake",
+      "name": "Shake",
+      "price": 2.5
+    },
+    "102": {
+      "description": "Fresh, hand-cut potatoes prepared in 100% sunflower oil.",
+      "image": "inNOutFrenchFries",
+      "ingredients": [
+        "salt",
+        "onion",
+        "tomato",
+        "pepper",
+        "mayo",
+        "cheese",
+        "ketchup"
+      ],
+      "name": "French Fries",
+      "price": 1.85
+    },
+    "103": {
+      "description": "Secret but unique fries, topped with cheese, spread, and grilled onions.",
+      "image": "animalStyleFries",
+      "name": "Animal Style Fries",
+      "price": 4.25
+    },
+    "200": {
+      "description": "American-style cheese melted between fresh patties and placed on a soft, toasted sesame seed bun. Choose as many toppings as you want.",
+      "image": "fiveGuysCheeseburger",
+      "ingredients": [
+        "mushroom",
+        "cheese",
+        "ketchup",
+        "mayo",
+        "lettuce",
+        "onion",
+        "patty",
+        "salt",
+        "tomato"
+      ],
+      "name": "Cheeseburger",
+      "price": 7.69
+    },
+    "201": {
+      "description": "Freshly made boardwalk-style fries, cooked in pure, cholesterol-free, 100% peanut oil. Cut fresh and cooked twice - firm on the outside and mashed potato on the inside.",
+      "image": "fiveGuysFries",
+      "name": "Fries",
+      "price": 5.19
+    },
+    "202": {
+      "description": "Fresh strawberries in homemade simple syrup.",
+      "image": "fiveGuysMilkshake",
+      "name": "Milkshake",
+      "price": 5.19
+    },
+    "203": {
+      "description": "Freshly grilled onions, mushrooms and green peppers layered with lettuce and tomatoes on a soft, toasted sesame seed bun.",
+      "image": "fiveGuysSandwich",
+      "ingredients": [
+        "mushroom",
+        "cheese",
+        "ketchup",
+        "mayo",
+        "lettuce",
+        "onion",
+        "salt",
+        "tomato"
+      ],
+      "name": "Veggie Sandwich",
+      "price": 6.59
+    },
+    "300": {
+      "description": "The Footlong Cookie is back nationwide and better than ever after popping up in select restaurants on National Cookie Day",
+      "image": "footlongCookie",
+      "name": "Footlong Cookie",
+      "price": 5
+    },
+    "301": {
+      "description": "Special and tasty recipe - Turkey, bacon, crispy onions, double portion of cheese, tomatoes, cucumbers, and Caesar sauce!",
+      "image": "footlong",
+      "ingredients": [
+        "cheese",
+        "mayo",
+        "lettuce",
+        "onion",
+        "salt",
+        "tomato"
+      ],
+      "name": "Turkey Footlong",
+      "price": 8.59
+    },
+    "302": {
+      "description": "Contains a double serving of chicken with melted mozzarella and cheddar mix, on iceberg, tomatoes, cucumbers, green peppers, olives and onions. Season with Crispy onion and sweet sauce!",
+      "image": "salad",
+      "name": "Salad",
+      "price": 7.39
+    },
+    "303": {
+      "description": "Special and tasty recipe - chicken strips, bacon, crispy onions, double portion of cheese, tomatoes, cucumbers, and Caesar sauce!",
+      "image": "wrap",
+      "ingredients": [
+        "cheese",
+        "mayo",
+        "lettuce",
+        "onion",
+        "salt",
+        "tomato",
+        "pepper"
+      ],
+      "name": "Wrap",
+      "price": 5.99
+    }
+  },
+  "Restaurants": [
+    null,
+    {
+      "description": "From the first bite of your burger to your last french fry, quality is the most important ingredient at In-N-Out Burger.",
+      "foods": [
+        "100",
+        "101",
+        "102",
+        "103"
+      ],
+      "image": "inNOut",
+      "name": "In-N-Out Burger",
+      "rating": 5,
+      "time": 20
+    },
+    {
+      "description": "Five Guys' passion for food is shared with our fans, which is why we never compromise. Fresh ingredients hand-prepared that satisfy your craving.",
+      "foods": [
+        "200",
+        "201",
+        "202",
+        "203"
+      ],
+      "image": "fiveGuys",
+      "name": "Five Guys",
+      "rating": 4.7,
+      "time": 45
+    },
+    {
+      "description": "The Subway menu offers a wide range of sandwiches, salads, and cookies for anyone's taste.",
+      "foods": [
+        "300",
+        "301",
+        "302",
+        "303"
+      ],
+      "image": "subway",
+      "name": "Subway",
+      "rating": 3.5,
+      "time": 50
+    }
+  ]
+}
